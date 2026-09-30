@@ -1,0 +1,16 @@
+name: device_security_check_example
+description: Example application for device_security_check.
+publish_to: none
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  device_security_check:
+    path: ../
+
+flutter:
+  uses-material-design: true

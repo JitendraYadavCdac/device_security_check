@@ -1,0 +1,34 @@
+name: device_security_check
+description: Basic Flutter device security checks for rooted or jailbroken devices, developer options, emulators, debuggers, and more.
+version: 0.1.0
+homepage: https://github.com/your-org/device_security_check
+repository: https://github.com/your-org/device_security_check
+issue_tracker: https://github.com/your-org/device_security_check/issues
+topics:
+  - security
+  - root-detection
+  - jailbreak
+  - android
+  - ios
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.device_security_check
+        pluginClass: DeviceSecurityCheckPlugin
+      ios:
+        pluginClass: DeviceSecurityCheckPlugin

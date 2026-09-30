@@ -4,10 +4,19 @@ plugins {
 }
 
 android {
-    namespace = "com.example.device_security_check"
+    namespace = "com.jitendrayadav.device_security_check"
     compileSdk = 36
 
     defaultConfig {
         minSdk = 23
     }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
+    }
+}
+
+kotlin {
+    jvmToolchain(21)
 }

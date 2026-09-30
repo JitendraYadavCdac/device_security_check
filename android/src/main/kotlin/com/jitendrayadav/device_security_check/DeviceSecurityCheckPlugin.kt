@@ -1,4 +1,4 @@
-package com.example.device_security_check
+package com.jitendrayadav.device_security_check
 
 import android.content.Context
 import android.content.pm.ApplicationInfo

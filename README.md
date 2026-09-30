@@ -1,4 +1,4 @@
-# device_security_check
+# device_security_scan
 
 Basic Flutter device-security signals for Android and iOS.
 
@@ -21,13 +21,13 @@ Basic Flutter device-security signals for Android and iOS.
 
 ```yaml
 dependencies:
-  device_security_check: ^0.1.0
+  device_security_scan: ^0.1.0
 ```
 
 ## Usage
 
 ```dart
-import 'package:device_security_check/device_security_check.dart';
+import 'package:device_security_scan/device_security_scan.dart';
 
 final security = await DeviceSecurityCheck.check();
 

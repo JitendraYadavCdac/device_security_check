@@ -1,4 +1,4 @@
-# device_security_check_example
+# device_security_scan_example
 
 A new Flutter project.
 

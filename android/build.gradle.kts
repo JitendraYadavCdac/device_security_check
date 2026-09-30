@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.jitendrayadav.device_security_check"
+    namespace = "com.jitendrayadav.device_security_scan"
     compileSdk = 36
 
     defaultConfig {

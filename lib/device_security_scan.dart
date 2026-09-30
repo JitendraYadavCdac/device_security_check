@@ -12,7 +12,7 @@ class DeviceSecurityCheck {
   DeviceSecurityCheck._();
 
   static const MethodChannel _channel =
-      MethodChannel('device_security_check');
+      MethodChannel('device_security_scan');
 
   /// Returns a snapshot of the supported security signals.
   static Future<SecurityCheckResult> check() async {

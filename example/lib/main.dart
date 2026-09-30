@@ -1,4 +1,4 @@
-import 'package:device_security_check/device_security_check.dart';
+import 'package:device_security_scan/device_security_scan.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(const SecurityExampleApp());

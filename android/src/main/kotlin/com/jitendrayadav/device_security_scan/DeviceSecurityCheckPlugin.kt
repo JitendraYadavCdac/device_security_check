@@ -1,4 +1,4 @@
-package com.jitendrayadav.device_security_check
+package com.jitendrayadav.device_security_scan
 
 import android.content.Context
 import android.content.pm.ApplicationInfo
@@ -16,7 +16,7 @@ class DeviceSecurityCheckPlugin : FlutterPlugin, MethodChannel.MethodCallHandler
 
     override fun onAttachedToEngine(binding: FlutterPlugin.FlutterPluginBinding) {
         context = binding.applicationContext
-        channel = MethodChannel(binding.binaryMessenger, "device_security_check")
+        channel = MethodChannel(binding.binaryMessenger, "device_security_scan")
         channel.setMethodCallHandler(this)
     }
 

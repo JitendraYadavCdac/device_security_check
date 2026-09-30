@@ -41,7 +41,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.19.1"
-  device_security_check:
+  device_security_scan:
     dependency: "direct main"
     description:
       path: ".."

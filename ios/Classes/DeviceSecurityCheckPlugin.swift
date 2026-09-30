@@ -5,7 +5,7 @@ import UIKit
 
 public class DeviceSecurityCheckPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "device_security_check", binaryMessenger: registrar.messenger())
+    let channel = FlutterMethodChannel(name: "device_security_scan", binaryMessenger: registrar.messenger())
     let instance = DeviceSecurityCheckPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
